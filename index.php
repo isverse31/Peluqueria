@@ -92,7 +92,6 @@ $_SESSION['aptno']=$result['AptNumber'];
 		          		<span class="subheading">Belleza Natural</span>
 			            <h1 class="mb-4">Salon de Belleza</h1>
 			            <p class="mb-4">Este salón ofrece enormes instalaciones con equipos de tecnología avanzada y un servicio de la mejor calidad. Aquí le ofrecemos el mejor tratamiento que nunca haya experimentado antes.</p>
-			            
 			           
 		            </div>
 		          </div>
@@ -113,7 +112,7 @@ $_SESSION['aptno']=$result['AptNumber'];
     					<div class="appointment-wrap">
     						<span class="subheading">Reservaciones</span>
 								<h3 class="mb-2">Haga una cita</h3>
-		    				<form action="#" method="post" class="appointment-form">
+		    				<form action="thank-you.php" method="post" class="appointment-form">
 			            <div class="row">
 			              <div class="col-sm-12">
 			                <div class="form-group">

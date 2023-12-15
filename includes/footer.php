@@ -46,9 +46,9 @@ while ($row=mysqli_fetch_array($ret)) {
 
 ?>
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text"><?php  echo $row['PageDescription'];?></span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+<?php  echo $row['MobileNumber'];?></span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text"><?php  echo $row['Email'];?></span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text"><?php  echo $row['Hola'];?></span></li>
+	                <li><a href="2311139893"><span class="icon icon-phone"></span><span class="text">+<?php  echo $row['2311139893'];?></span></a></li>
+	                <li><a href="darioreyea974@gmail.com"><span class="icon icon-envelope"></span><span class="text"><?php  echo $row['darioreyea974@gmail.com'];?></span></a></li>
 	              </ul>
 	            </div>
                <?php } ?>
